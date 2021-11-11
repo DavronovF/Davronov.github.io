@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+img{
+    width: 100%;
+    max-height: 600px;
+}
+p{
+    padding: 10px 0;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
