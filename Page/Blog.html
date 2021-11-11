@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal blog-Farhod Davronov's personal web site</title>
+    <link rel="stylesheet" href="../Bootstrap 5.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1><span class="cdo">F</span>arhod <span class="cdo">D</span>avronov</h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Blog.html" class="active">Blog</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="../index.html">Home</a>
+            <a href="Blog.html" class="act">Blog</a>
+            <a href="Profile.html">Profile</a>
+            <a href="Education.html">Education</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Skills.html">Skills</a>
+        </div>
+    </div>
+    <span class="overlay_icon" onclick="openNav()">&#9776; </span>
+
+    <div class="blogs">
+        <div class="container">
+            <h1 class="main-h1 cdo">Posts</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="blog-img" src="../Image/nodeJs_blog.jpeg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="cdo pb-1">Node.js nima?</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Node.js ham front-end, ham back-end dasturchilar ishlatishadi. Node.js judayam ommalashib
+                                ketdi, shuning uchun Node.js nimaligini bilish zarar qilmaydi.</p>
+                            <!-- https://www.texnoman.uz/post/node_js-haqida.html -->
+                        </div>
+                        <div class="card-footer">
+                            <a href="nodejs.html" class="btn btn-light w-100" target="farhod">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="blog-img" src="../Image/Js_blog.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="cdo pb-1">JavaScript nima?</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Bu savolga har xil javob berish mumkin. Bu dasturlash tili, to'g'rirog'i web dasturlash
+                                tili, undan ham to'g'rirog'i klient(brauzer) tomonda ishlaydigan dasturlash tili, ya'ni
+                                bu web dasturlash tili ishlashi uchun hech qanday server(Apache, ngnix) kerak emas,
+                                oddiy brauzerda(Javascript'da yozilgan kodlar) ishlayveradi.</p>
+                            <!-- https://www.texnoman.uz/post/javascript-veb-dasturlash-tiliga-oid-muhim-savollarga-javoblar-boshlovchilar-uchun.html -->
+                        </div>
+                        <div class="card-footer">
+                            <a href="js.html" class="btn btn-light w-100" target="farhod">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="blog-img" src="../Image/Css_blog.jpeg" alt="Css3">
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="cdo pb-1">CSS nima ?</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>CSS (ing. Cascading style sheets, uzb. Kaskadlangan stillar jadvali) — bu belgilash
+                                tilidan foydalanib yozilgan hujjatlarning ko’rinishini tasvirlash uchun ishlatiladigan
+                                rasmiy til hisoblanadi.</p>
+                            <!-- https://nanotexnolagiya.medium.com/css-nima-1dad51000a73 -->
+                        </div>
+                        <div class="card-footer">
+                            <a href="css.html" class="btn btn-light w-100" target="farhod">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="blog-img" src="../Image/html_blog.jpg" alt="HTML5">
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="cdo pb-1">HTML nima?</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Internetning WWW hizmati, asosan, wyeb-sahifalarga bog‘liq ekan, ular qanday yaratiladi?
+                                – degan savol tug‘ulishi tabiiy. Wyeb-sahifalar HTML (Hypertext Markup Language –
+                                Gipermatnli markerlash tili) tilida yoziladi.</p>
+                            <!-- //https://www.terabayt.uz/uz/post/html-haqida-tushuncha -->
+                        </div>
+                        <div class="card-footer">
+                            <a href="html.html" class="btn btn-light w-100" target="farhod">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link " href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link " href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link " href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link " href="#">3</a>
+                </li>
+                <li class="page-item mr-3">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 pt-4">
+                    <h4><span class="cdo">F</span>arhod <span class="cdo">D</span>avronov</h4>
+                    <p>Copyright &copy; 2021 </p>
+                </div>
+
+                <div class="col-md-3 pt-4">
+                    <h4>
+                        Location
+                    </h4>
+                    <p>Khorezm region, Republic of Uzbekistan</p>
+                </div>
+
+                <div class="col-md-3 pt-4">
+                    <h4>
+                        More info
+                    </h4>
+                    <p>Phone: +998 99 964 33 09</p>
+                    <p>Email: farhoddavronov98 @gmail.com</p>
+                </div>
+
+                <div class="col-md-3 pt-4">
+                    <h4>
+                        Get social with us
+                    </h4>
+                    <p>Telegram: @lyums</p>
+                    <p>Instagram: farhodshuxratovich</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+
+</body>
+
+</html>
