@@ -25,6 +25,7 @@ body{
     margin:0px auto;
     margin-top: 30px;
     animation: color-white 5s alternate-reverse;
+    display: block;
 }
 @keyframes color-white{
     to{color: rgba(12, 2, 15, 0.281);}
