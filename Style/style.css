@@ -722,8 +722,12 @@ ul{
 .portfolio{
     padding-bottom: 30px;
 }
+.portfolio hr{
+    height:5px;
+}
 .portfolio-img{
     max-width: 100%;
+    width: 80%;
     height: 300px;
     border-radius: 20px;
     padding-bottom: 10px;
